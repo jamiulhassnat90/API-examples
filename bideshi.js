@@ -13,9 +13,9 @@ const myBideshini=(personDatas) =>{
         <h4>Gmail: ${personData.email}</h4>
         `       
         divId.appendChild(newElement);
-        divId.classList.add('add-some-style')
+        newElement.classList.add('add-some-style')
     }
-   
+
 }
 
 personFetchPromise();
